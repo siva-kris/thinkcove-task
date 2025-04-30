@@ -1,0 +1,30 @@
+.set-icon-img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.set-icon-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.set-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+}
+
+.set-icon.active {
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  padding-bottom: 5px;
+}

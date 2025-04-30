@@ -1,0 +1,25 @@
+.card-box {
+}
+
+.card-img {
+  width: 320px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-info {
+  padding-top: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-details p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}

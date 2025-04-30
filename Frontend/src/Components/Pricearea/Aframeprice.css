@@ -1,0 +1,18 @@
+.carding {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: sticky;
+  top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.set-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}

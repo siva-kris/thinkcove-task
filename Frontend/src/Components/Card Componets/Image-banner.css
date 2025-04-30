@@ -1,0 +1,61 @@
+.setbanner {
+  display: flex;
+  width: 100%;
+}
+
+.banner-1 img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.banner-2 img {
+  width: 300px;
+  height: 225px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Optional: spacing between small images */
+.banner-2 .col {
+  padding: 5px;
+}
+.setform {
+  top: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.setform .form-label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.setform .form-control {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff385c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e03150;
+}
